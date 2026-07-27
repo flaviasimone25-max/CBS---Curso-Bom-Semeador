@@ -18,7 +18,6 @@ const CBS_CONFIG = {
 document.documentElement.classList.add('js');
 
 document.addEventListener('DOMContentLoaded', () => {
-  initMobileMenu();
   initFaqAccordion();
   initSmoothScroll();
   initPurchaseButtons();
@@ -27,27 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initStickyCta();
   initHeaderScroll();
 });
-
-/* ---- Menu mobile ---- */
-function initMobileMenu() {
-  const toggle = document.getElementById('menuToggle');
-  const mobileNav = document.getElementById('mobileNav');
-  if (!toggle || !mobileNav) return;
-
-  toggle.addEventListener('click', () => {
-    const isOpen = toggle.classList.toggle('is-open');
-    mobileNav.classList.toggle('is-open', isOpen);
-    toggle.setAttribute('aria-expanded', isOpen);
-  });
-
-  mobileNav.querySelectorAll('a, button').forEach(link => {
-    link.addEventListener('click', () => {
-      toggle.classList.remove('is-open');
-      mobileNav.classList.remove('is-open');
-      toggle.setAttribute('aria-expanded', 'false');
-    });
-  });
-}
 
 /* ---- FAQ Accordion ---- */
 function initFaqAccordion() {
