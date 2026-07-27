@@ -4,13 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="CBS — Curso Bom Semeador. Comunique a Palavra com clareza, conexão e excelência, sem comprometer a fidelidade às Escrituras.">
-  <title>CBS — Curso Bom Semeador</title>
+  <title>CBS — Curso Bom Semeador | Página Oficial</title>
 
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <!-- Meta Pixel Code -->
@@ -30,18 +28,16 @@
     <img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=1332721619020867&ev=PageView&noscript=1" alt="">
   </noscript>
-  <!-- End Meta Pixel Code -->
 </head>
 <body>
 
-  <!-- ========== CABEÇALHO ========== -->
+  <!-- CABEÇALHO -->
   <header class="header">
     <div class="container header__inner">
-      <a href="#" class="header__brand">
+      <a href="#inicio" class="header__brand">
         <span class="header__title">CBS — Curso Bom Semeador</span>
         <span class="header__tagline">Excelência &amp; Fidelidade nas Escrituras</span>
       </a>
-
       <nav class="nav" aria-label="Navegação principal">
         <ul class="nav__list">
           <li><a href="#dores" class="nav__link">Identificação</a></li>
@@ -51,16 +47,11 @@
           <li><a href="#faq" class="nav__link">FAQ</a></li>
         </ul>
       </nav>
-
-      <a href="#oferta" class="btn btn--gold header__cta" data-action="purchase">Quero me inscrever</a>
-
+      <button class="btn btn--gold header__cta" data-action="purchase">Quero me inscrever</button>
       <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </button>
     </div>
-
     <nav class="mobile-nav" id="mobileNav" aria-label="Menu mobile">
       <a href="#dores" class="mobile-nav__link">Identificação</a>
       <a href="#metodo" class="mobile-nav__link">Método</a>
@@ -68,49 +59,76 @@
       <a href="#modulos" class="mobile-nav__link">Módulos</a>
       <a href="#oferta" class="mobile-nav__link">Oferta</a>
       <a href="#faq" class="mobile-nav__link">FAQ</a>
-      <a href="#oferta" class="btn btn--gold" style="margin-top:1rem;" data-action="purchase">Quero me inscrever</a>
+      <button class="btn btn--gold" style="margin-top:1rem;" data-action="purchase">Quero me inscrever</button>
     </nav>
   </header>
 
   <main>
 
-    <!-- ========== SEÇÃO PRINCIPAL (HERO) ========== -->
+    <!-- HERO -->
     <section class="hero" id="inicio">
       <div class="container">
-        <div class="hero__arches">
+        <div class="hero__arches reveal">
           <div class="hero__arch hero__arch--left">
-            <span class="hero__arch-badge">Clareza &amp; Estudo</span>
-            <h2 class="hero__arch-title">A Semente</h2>
+            <div class="hero__arch-bg" style="background-image:url('https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80')"></div>
+            <div class="hero__arch-overlay"></div>
+            <div class="hero__arch-content">
+              <span class="hero__arch-badge">Clareza &amp; Estudo</span>
+              <h2 class="hero__arch-title">A Semente</h2>
+            </div>
           </div>
           <div class="hero__arch hero__arch--center">
-            <div class="hero__icon" aria-hidden="true">✝</div>
-            <h2 class="hero__arch-title">Fidelidade Bíblica</h2>
-            <p style="font-size:0.75rem;color:var(--muted);max-width:16rem;margin-top:0.5rem;">
-              Comunique com autoridade sem jamais comprometer o texto sagrado.
-            </p>
+            <div class="hero__arch-bg" style="background-image:url('https://images.unsplash.com/photo-1510079018349-c95b649ede21?auto=format&fit=crop&w=900&q=80')"></div>
+            <div class="hero__arch-overlay"></div>
+            <div class="hero__arch-content">
+              <div class="hero__icon" aria-hidden="true">✝</div>
+              <h2 class="hero__arch-title">Fidelidade Bíblica</h2>
+              <p class="hero__arch-desc">Comunique com autoridade sem jamais comprometer o texto sagrado.</p>
+            </div>
           </div>
           <div class="hero__arch hero__arch--right">
-            <span class="hero__arch-badge">Conexão &amp; Voz</span>
-            <h2 class="hero__arch-title">A Expressão</h2>
+            <div class="hero__arch-bg" style="background-image:url('https://images.unsplash.com/photo-1478737270239-98fcebfa8431?auto=format&fit=crop&w=900&q=80')"></div>
+            <div class="hero__arch-overlay"></div>
+            <div class="hero__arch-content">
+              <span class="hero__arch-badge">Conexão &amp; Voz</span>
+              <h2 class="hero__arch-title">A Expressão</h2>
+            </div>
           </div>
         </div>
 
-        <blockquote class="hero__quote">
-          "O chamado vem de Deus. A excelência honra esse chamado."
-        </blockquote>
+        <blockquote class="hero__quote reveal">"O chamado vem de Deus. A excelência honra esse chamado."</blockquote>
 
-        <p class="hero__promise">
+        <p class="hero__promise reveal">
           Ao concluir o CBS, você será capaz de comunicar a Palavra com mais clareza, conexão, segurança e excelência — utilizando princípios da comunicação, do comportamento humano e da neurociência, sem jamais comprometer a fidelidade às Escrituras.
         </p>
 
-        <div class="hero__actions">
+        <div class="hero__actions reveal">
           <button class="btn btn--gold btn--large" data-action="purchase">Garantir minha vaga no CBS</button>
           <a href="#metodo" class="btn btn--outline btn--large">Conhecer o Método</a>
+        </div>
+
+        <div class="hero__trust reveal">
+          <span class="hero__trust-item">8 Módulos Completos</span>
+          <span class="hero__trust-item">Método Proprietário</span>
+          <span class="hero__trust-item">Neurociência Aplicada</span>
+          <span class="hero__trust-item">Fidelidade Bíblica</span>
         </div>
       </div>
     </section>
 
-    <!-- Marquee -->
+    <!-- BANNER CINEMATOGRÁFICO -->
+    <section class="cinematic reveal">
+      <div class="cinematic__bg" style="background-image:url('https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=1920&q=80')"></div>
+      <div class="cinematic__overlay"></div>
+      <div class="container cinematic__content">
+        <span class="cinematic__label">Transformação no Ministério</span>
+        <h2 class="cinematic__title">Pare de pregar para plateias vazias por dentro</h2>
+        <p class="cinematic__text">O CBS não ensina truques vazios. Ensina um método que honra a Palavra e conquista a atenção — porque quem comunica bem, semeia melhor.</p>
+        <button class="btn btn--gold btn--large" data-action="purchase">Quero me inscrever agora</button>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
     <div class="marquee" aria-hidden="true">
       <div class="marquee__track">
         <span class="marquee__item">★ Método S.E.M.E.A.R.</span>
@@ -128,217 +146,274 @@
       </div>
     </div>
 
-    <!-- ========== IDENTIFICAÇÃO COM AS DORES ========== -->
+    <!-- DORES -->
     <section class="section section--alt" id="dores">
       <div class="container">
-        <header class="section__header">
-          <span class="section-label">Você se identifica?</span>
-          <h2 class="section-title">Prega com zelo, mas a atenção se perde</h2>
-          <p class="section-subtitle">
-            Muitos comunicadores da Palavra enfrentam os mesmos obstáculos — e isso não significa falta de chamado.
-          </p>
-          <div class="gold-line"></div>
-        </header>
+        <div class="split reveal">
+          <div class="split__image">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Pregador preparando mensagem" loading="lazy">
+            <div class="split__image-badge">
+              <p>"Não basta ter a Palavra. É preciso comunicá-la com excelência."</p>
+            </div>
+          </div>
+          <div class="split__content">
+            <span class="section-label">Você se identifica?</span>
+            <h2 class="section-title">Prega com zelo, mas a atenção se perde</h2>
+            <div class="gold-line"></div>
+            <p class="section-subtitle" style="margin-left:0;text-align:left;">
+              Muitos comunicadores da Palavra enfrentam os mesmos obstáculos — e isso não significa falta de chamado. Significa que ainda falta método.
+            </p>
+          </div>
+        </div>
 
-        <div class="pain-grid">
-          <article class="pain-card">
-            <h3 class="pain-card__title">Estudo profundo, impacto superficial</h3>
-            <p class="pain-card__text">Você se dedica horas ao texto bíblico, mas percebe que as pessoas não retêm a mensagem central.</p>
+        <div class="pain-grid" style="margin-top:3rem;">
+          <article class="pain-card reveal">
+            <div class="pain-card__img">
+              <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=600&q=80" alt="Estudo bíblico profundo" loading="lazy">
+            </div>
+            <div class="pain-card__body">
+              <h3 class="pain-card__title">Estudo profundo, impacto superficial</h3>
+              <p class="pain-card__text">Você se dedica horas ao texto bíblico, mas percebe que as pessoas não retêm a mensagem central.</p>
+            </div>
           </article>
-          <article class="pain-card">
-            <h3 class="pain-card__title">Público distraído e desconectado</h3>
-            <p class="pain-card__text">Celulares, olhares vazios e uma sensação de que ninguém está realmente ouvindo o que importa.</p>
+          <article class="pain-card reveal">
+            <div class="pain-card__img">
+              <img src="https://images.unsplash.com/photo-1519494020892-509724ed8f74?auto=format&fit=crop&w=600&q=80" alt="Público distraído" loading="lazy">
+            </div>
+            <div class="pain-card__body">
+              <h3 class="pain-card__title">Público distraído e desconectado</h3>
+              <p class="pain-card__text">Celulares, olhares vazios e a sensação de que ninguém está realmente ouvindo o que importa.</p>
+            </div>
           </article>
-          <article class="pain-card">
-            <h3 class="pain-card__title">Insegurança no púlpito</h3>
-            <p class="pain-card__text">Medo de errar, ansiedade antes de pregar e a sensação de que sua voz não transmite autoridade.</p>
+          <article class="pain-card reveal">
+            <div class="pain-card__img">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80" alt="Insegurança no púlpito" loading="lazy">
+            </div>
+            <div class="pain-card__body">
+              <h3 class="pain-card__title">Insegurança no púlpito</h3>
+              <p class="pain-card__text">Medo de errar, ansiedade antes de pregar e a sensação de que sua voz não transmite autoridade.</p>
+            </div>
           </article>
-          <article class="pain-card">
-            <h3 class="pain-card__title">Mensagens que não marcam</h3>
-            <p class="pain-card__text">Ao final do culto, tudo parece esquecido. A Palavra foi fiel, mas a comunicação não gerou transformação.</p>
+          <article class="pain-card reveal">
+            <div class="pain-card__img">
+              <img src="https://images.unsplash.com/photo-1438237150248-9951904346ea?auto=format&fit=crop&w=600&q=80" alt="Mensagem no púlpito" loading="lazy">
+            </div>
+            <div class="pain-card__body">
+              <h3 class="pain-card__title">Mensagens que não marcam</h3>
+              <p class="pain-card__text">Ao final do culto, tudo parece esquecido. A Palavra foi fiel, mas a comunicação não gerou transformação.</p>
+            </div>
           </article>
-          <article class="pain-card">
-            <h3 class="pain-card__title">Excesso de informação</h3>
-            <p class="pain-card__text">Quer falar tudo o que estudou, mas perde clareza, objetividade e o fio condutor da pregação.</p>
+          <article class="pain-card reveal">
+            <div class="pain-card__img">
+              <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=600&q=80" alt="Anotações de estudo" loading="lazy">
+            </div>
+            <div class="pain-card__body">
+              <h3 class="pain-card__title">Excesso de informação</h3>
+              <p class="pain-card__text">Quer falar tudo o que estudou, mas perde clareza, objetividade e o fio condutor da pregação.</p>
+            </div>
           </article>
-          <article class="pain-card">
-            <h3 class="pain-card__title">Frustração silenciosa</h3>
-            <p class="pain-card__text">Sabe que foi chamado por Deus, mas sente que ainda não desenvolveu a excelência que esse chamado exige.</p>
+          <article class="pain-card reveal">
+            <div class="pain-card__img">
+              <img src="https://images.unsplash.com/photo-1507679799987-c73779587eea?auto=format&fit=crop&w=600&q=80" alt="Momento de reflexão" loading="lazy">
+            </div>
+            <div class="pain-card__body">
+              <h3 class="pain-card__title">Frustração silenciosa</h3>
+              <p class="pain-card__text">Sabe que foi chamado por Deus, mas sente que ainda não desenvolveu a excelência que esse chamado exige.</p>
+            </div>
           </article>
         </div>
 
-        <div style="text-align:center;margin-top:2.5rem;">
-          <button class="btn btn--gold" data-action="purchase">Quero transformar minha comunicação</button>
+        <div class="section-cta reveal">
+          <button class="btn btn--gold btn--large" data-action="purchase">Quero transformar minha comunicação</button>
         </div>
       </div>
     </section>
 
-    <!-- ========== MÉTODO BOM SEMEADOR ========== -->
+    <!-- MÉTODO -->
     <section class="section" id="metodo">
       <div class="container">
-        <header class="section__header">
+        <header class="section__header reveal">
           <span class="section-label">Metodologia Proprietária</span>
           <h2 class="section-title">Método S.E.M.E.A.R.</h2>
-          <p class="section-subtitle">
-            Desenvolvido para organizar o pensamento, refinar a oratória e gerar impacto real no coração da igreja.
-          </p>
+          <p class="section-subtitle">Desenvolvido para organizar o pensamento, refinar a oratória e gerar impacto real no coração da igreja.</p>
           <div class="gold-line"></div>
         </header>
 
-        <div class="method-centerpiece">
-          <div class="method-centerpiece__icon" aria-hidden="true">🌱</div>
-          <h3 style="font-family:var(--font-serif);font-size:1.5rem;font-weight:700;">O Ciclo do Comunicador</h3>
-          <p style="font-size:0.75rem;color:var(--muted);font-style:italic;margin-top:0.25rem;">Da preparação bíblica ao apelo transformador</p>
+        <div class="method-showcase reveal">
+          <div class="method-showcase__bg" style="background-image:url('https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1200&q=80')"></div>
+          <div class="method-showcase__overlay"></div>
+          <div class="method-showcase__content">
+            <h3>O Ciclo do Comunicador</h3>
+            <p>Da preparação bíblica ao apelo transformador — um caminho claro para quem leva a sério o chamado de semear a Palavra.</p>
+          </div>
         </div>
 
         <div class="method-grid">
-          <article class="method-card">
-            <div class="method-card__header">
-              <span class="method-card__letter">S</span>
-              <div>
-                <h3 class="method-card__name">Semente</h3>
-                <p class="method-card__tag">Compreender antes de comunicar</p>
-              </div>
+          <article class="method-card reveal">
+            <div class="method-card__img">
+              <img src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=600&q=80" alt="Estudo da Semente" loading="lazy">
             </div>
-            <ul class="method-card__list">
-              <li>Como estudar o texto bíblico com profundidade</li>
-              <li>Encontrar a mensagem central da passagem</li>
-              <li>O erro clássico de querer falar tudo</li>
-              <li>Clareza e lapidação do objetivo do sermão</li>
-            </ul>
+            <div class="method-card__body">
+              <div class="method-card__header">
+                <span class="method-card__letter">S</span>
+                <div><h3 class="method-card__name">Semente</h3><p class="method-card__tag">Compreender antes de comunicar</p></div>
+              </div>
+              <ul class="method-card__list">
+                <li>Como estudar o texto bíblico com profundidade</li>
+                <li>Encontrar a mensagem central da passagem</li>
+                <li>O erro clássico de querer falar tudo</li>
+                <li>Clareza e lapidação do objetivo do sermão</li>
+              </ul>
+            </div>
           </article>
-
-          <article class="method-card">
-            <div class="method-card__header">
-              <span class="method-card__letter">E</span>
-              <div>
-                <h3 class="method-card__name">Estrutura</h3>
-                <p class="method-card__tag">A arquitetura da pregação</p>
-              </div>
+          <article class="method-card reveal">
+            <div class="method-card__img">
+              <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=600&q=80" alt="Estrutura da pregação" loading="lazy">
             </div>
-            <ul class="method-card__list">
-              <li>Introdução, Desenvolvimento, Aplicação e Conclusão</li>
-              <li>Transições fluidas e imperceptíveis</li>
-              <li>Como manter a atenção do início ao fim</li>
-              <li>Técnicas de storytelling aplicadas</li>
-            </ul>
+            <div class="method-card__body">
+              <div class="method-card__header">
+                <span class="method-card__letter">E</span>
+                <div><h3 class="method-card__name">Estrutura</h3><p class="method-card__tag">A arquitetura da pregação</p></div>
+              </div>
+              <ul class="method-card__list">
+                <li>Introdução, Desenvolvimento, Aplicação e Conclusão</li>
+                <li>Transições fluidas e imperceptíveis</li>
+                <li>Como manter a atenção do início ao fim</li>
+                <li>Técnicas de storytelling aplicadas</li>
+              </ul>
+            </div>
           </article>
-
-          <article class="method-card">
-            <div class="method-card__header">
-              <span class="method-card__letter">M</span>
-              <div>
-                <h3 class="method-card__name">Mensagem Viva</h3>
-                <p class="method-card__tag">A arte de tornar inesquecível</p>
-              </div>
+          <article class="method-card reveal">
+            <div class="method-card__img">
+              <img src="https://images.unsplash.com/photo-1516979187456-7683578f1c4e?auto=format&fit=crop&w=600&q=80" alt="Mensagem viva" loading="lazy">
             </div>
-            <ul class="method-card__list">
-              <li>Histórias, analogias e exemplos da vida real</li>
-              <li>Linguagem simples sem perder profundidade</li>
-              <li>Equilíbrio saudável entre emoção e humor</li>
-              <li>Baseado em princípios da neurociência</li>
-            </ul>
+            <div class="method-card__body">
+              <div class="method-card__header">
+                <span class="method-card__letter">M</span>
+                <div><h3 class="method-card__name">Mensagem Viva</h3><p class="method-card__tag">A arte de tornar inesquecível</p></div>
+              </div>
+              <ul class="method-card__list">
+                <li>Histórias, analogias e exemplos da vida real</li>
+                <li>Linguagem simples sem perder profundidade</li>
+                <li>Equilíbrio saudável entre emoção e humor</li>
+                <li>Baseado em princípios da neurociência</li>
+              </ul>
+            </div>
           </article>
-
-          <article class="method-card">
-            <div class="method-card__header">
-              <span class="method-card__letter">E</span>
-              <div>
-                <h3 class="method-card__name">Expressão</h3>
-                <p class="method-card__tag">O seu diferencial no púlpito</p>
-              </div>
+          <article class="method-card reveal">
+            <div class="method-card__img">
+              <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80" alt="Expressão no púlpito" loading="lazy">
             </div>
-            <ul class="method-card__list">
-              <li>Voz, dicção, ritmo e a força das pausas</li>
-              <li>Contato visual e postura corporal assertiva</li>
-              <li>Presença de palco magnética e respeitosa</li>
-              <li>Domínio da comunicação não-verbal</li>
-            </ul>
+            <div class="method-card__body">
+              <div class="method-card__header">
+                <span class="method-card__letter">E</span>
+                <div><h3 class="method-card__name">Expressão</h3><p class="method-card__tag">O seu diferencial no púlpito</p></div>
+              </div>
+              <ul class="method-card__list">
+                <li>Voz, dicção, ritmo e a força das pausas</li>
+                <li>Contato visual e postura corporal assertiva</li>
+                <li>Presença de palco magnética e respeitosa</li>
+                <li>Domínio da comunicação não-verbal</li>
+              </ul>
+            </div>
           </article>
-
-          <article class="method-card">
-            <div class="method-card__header">
-              <span class="method-card__letter">A</span>
-              <div>
-                <h3 class="method-card__name">Audiência</h3>
-                <p class="method-card__tag">O módulo de ouro</p>
-              </div>
+          <article class="method-card reveal">
+            <div class="method-card__img">
+              <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=600&q=80" alt="Conexão com audiência" loading="lazy">
             </div>
-            <ul class="method-card__list">
-              <li>Como entender quem está ouvindo você</li>
-              <li>Diferentes formas de recepção da mensagem</li>
-              <li>Comportamento humano, percepção e atenção</li>
-              <li>Geração de conexão sincera e imediata</li>
-            </ul>
+            <div class="method-card__body">
+              <div class="method-card__header">
+                <span class="method-card__letter">A</span>
+                <div><h3 class="method-card__name">Audiência</h3><p class="method-card__tag">O módulo de ouro</p></div>
+              </div>
+              <ul class="method-card__list">
+                <li>Como entender quem está ouvindo você</li>
+                <li>Diferentes formas de recepção da mensagem</li>
+                <li>Comportamento humano, percepção e atenção</li>
+                <li>Geração de conexão sincera e imediata</li>
+              </ul>
+            </div>
           </article>
-
-          <article class="method-card">
-            <div class="method-card__header">
-              <span class="method-card__letter">R</span>
-              <div>
-                <h3 class="method-card__name">Resposta</h3>
-                <p class="method-card__tag">Gerar movimento &amp; reflexão</p>
-              </div>
+          <article class="method-card reveal">
+            <div class="method-card__img">
+              <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=600&q=80" alt="Resposta e transformação" loading="lazy">
             </div>
-            <ul class="method-card__list">
-              <li>Como terminar uma pregação com impacto</li>
-              <li>Aplicações práticas direcionadas à vida</li>
-              <li>Como conduzir apelos com respeito e verdade</li>
-              <li>Deixar uma mensagem marcada na memória</li>
-            </ul>
+            <div class="method-card__body">
+              <div class="method-card__header">
+                <span class="method-card__letter">R</span>
+                <div><h3 class="method-card__name">Resposta</h3><p class="method-card__tag">Gerar movimento &amp; reflexão</p></div>
+              </div>
+              <ul class="method-card__list">
+                <li>Como terminar uma pregação com impacto</li>
+                <li>Aplicações práticas direcionadas à vida</li>
+                <li>Como conduzir apelos com respeito e verdade</li>
+                <li>Deixar uma mensagem marcada na memória</li>
+              </ul>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ========== BENEFÍCIOS ========== -->
+    <!-- BENEFÍCIOS -->
     <section class="section section--alt" id="beneficios">
       <div class="container">
-        <header class="section__header">
+        <header class="section__header reveal">
           <span class="section-label">O que você vai conquistar</span>
           <h2 class="section-title">Benefícios do Curso Bom Semeador</h2>
           <div class="gold-line"></div>
         </header>
-
         <div class="benefits-grid">
-          <article class="benefit-card">
-            <div class="benefit-card__icon" aria-hidden="true">📖</div>
-            <div>
+          <article class="benefit-card reveal">
+            <div class="benefit-card__bg" style="background-image:url('https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=800&q=80')"></div>
+            <div class="benefit-card__overlay"></div>
+            <div class="benefit-card__content">
+              <span class="benefit-card__num">01</span>
               <h3 class="benefit-card__title">Clareza na mensagem</h3>
               <p class="benefit-card__text">Organize suas ideias e transmita o coração de Deus com objetividade e profundidade.</p>
             </div>
           </article>
-          <article class="benefit-card">
-            <div class="benefit-card__icon" aria-hidden="true">🎯</div>
-            <div>
+          <article class="benefit-card reveal">
+            <div class="benefit-card__bg" style="background-image:url('https://images.unsplash.com/photo-1559757175-57083549455f?auto=format&fit=crop&w=800&q=80')"></div>
+            <div class="benefit-card__overlay"></div>
+            <div class="benefit-card__content">
+              <span class="benefit-card__num">02</span>
               <h3 class="benefit-card__title">Atenção do início ao fim</h3>
-              <p class="benefit-card__text">Aprenda técnicas baseadas em neurociência para manter o ouvinte engajado.</p>
+              <p class="benefit-card__text">Técnicas baseadas em neurociência para manter o ouvinte engajado em cada minuto.</p>
             </div>
           </article>
-          <article class="benefit-card">
-            <div class="benefit-card__icon" aria-hidden="true">🎤</div>
-            <div>
+          <article class="benefit-card reveal">
+            <div class="benefit-card__bg" style="background-image:url('https://images.unsplash.com/photo-1478737270239-98fcebfa8431?auto=format&fit=crop&w=800&q=80')"></div>
+            <div class="benefit-card__overlay"></div>
+            <div class="benefit-card__content">
+              <span class="benefit-card__num">03</span>
               <h3 class="benefit-card__title">Presença de palco</h3>
               <p class="benefit-card__text">Domine voz, postura e comunicação não-verbal com confiança e respeito.</p>
             </div>
           </article>
-          <article class="benefit-card">
-            <div class="benefit-card__icon" aria-hidden="true">💡</div>
-            <div>
+          <article class="benefit-card reveal">
+            <div class="benefit-card__bg" style="background-image:url('https://images.unsplash.com/photo-1438237150248-9951904346ea?auto=format&fit=crop&w=800&q=80')"></div>
+            <div class="benefit-card__overlay"></div>
+            <div class="benefit-card__content">
+              <span class="benefit-card__num">04</span>
               <h3 class="benefit-card__title">Pregações memoráveis</h3>
               <p class="benefit-card__text">Construa mensagens que permanecem no coração e geram transformação real.</p>
             </div>
           </article>
-          <article class="benefit-card">
-            <div class="benefit-card__icon" aria-hidden="true">🧠</div>
-            <div>
+          <article class="benefit-card reveal">
+            <div class="benefit-card__bg" style="background-image:url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80')"></div>
+            <div class="benefit-card__overlay"></div>
+            <div class="benefit-card__content">
+              <span class="benefit-card__num">05</span>
               <h3 class="benefit-card__title">Comunicação inteligente</h3>
               <p class="benefit-card__text">Adapte sua mensagem para diferentes públicos sem perder fidelidade bíblica.</p>
             </div>
           </article>
-          <article class="benefit-card">
-            <div class="benefit-card__icon" aria-hidden="true">✨</div>
-            <div>
+          <article class="benefit-card reveal">
+            <div class="benefit-card__bg" style="background-image:url('https://images.unsplash.com/photo-1510079018349-c95b649ede21?auto=format&fit=crop&w=800&q=80')"></div>
+            <div class="benefit-card__overlay"></div>
+            <div class="benefit-card__content">
+              <span class="benefit-card__num">06</span>
               <h3 class="benefit-card__title">Excelência que honra a Deus</h3>
               <p class="benefit-card__text">Desenvolva seu dom com método, disciplina e propósito eterno.</p>
             </div>
@@ -347,169 +422,192 @@
       </div>
     </section>
 
-    <!-- ========== CONTEÚDO DOS MÓDULOS ========== -->
+    <!-- MÓDULOS -->
     <section class="section" id="modulos">
       <div class="container">
-        <header class="section__header">
+        <header class="section__header reveal">
           <span class="section-label">Programa Completo</span>
           <h2 class="section-title">Grade Curricular</h2>
           <div class="gold-line"></div>
         </header>
 
         <div class="modules-grid">
-          <article class="module-card">
-            <span class="module-card__number">Módulo 01</span>
-            <h3 class="module-card__title">O Chamado e a Responsabilidade</h3>
-            <ul class="module-card__list">
-              <li>Parábola dos talentos e responsabilidade no falar</li>
-              <li>Mordomia e administração do dom pregado</li>
-              <li>Excelência como ato de adoração e serviço</li>
-              <li>Por que e como desenvolver continuamente o seu dom</li>
-            </ul>
-          </article>
-
-          <article class="module-card">
-            <span class="module-card__number">Módulo 02</span>
-            <h3 class="module-card__title">Comunicação que Honra a Palavra</h3>
-            <ul class="module-card__list">
-              <li>Clareza, objetividade e organização de ideias</li>
-              <li>Os maiores erros cometidos no púlpito e como corrigi-los</li>
-              <li>Conciliando relevância contemporânea e rigor bíblico</li>
-            </ul>
-          </article>
-
-          <article class="module-card module-card--highlight module-card--wide">
-            <span class="module-card__badge">Destaque Exclusivo</span>
-            <span class="module-card__number">Módulo 03</span>
-            <h3 class="module-card__title">Neurociência da Atenção</h3>
-            <p style="font-size:0.8125rem;color:var(--muted);font-style:italic;margin-bottom:0.75rem;">
-              Um módulo único e transformador aplicado diretamente à prática do púlpito.
-            </p>
-            <ul class="module-card__list">
-              <li>Como o cérebro do ouvinte processa mensagens</li>
-              <li>Gestão consciente da carga cognitiva</li>
-              <li>Gatilhos de memória, emoção e repetição</li>
-              <li>Ativação da curiosidade e retenção bíblica</li>
-            </ul>
-          </article>
-
-          <article class="module-card">
-            <span class="module-card__number">Módulo 04</span>
-            <h3 class="module-card__title">Storytelling Bíblico</h3>
-            <ul class="module-card__list">
-              <li>A arte de contar histórias e parábolas bíblicas</li>
-              <li>Como ilustrar conceitos teológicos abstratos</li>
-              <li>Conexão profunda e emoção legítima</li>
-            </ul>
-          </article>
-
-          <article class="module-card">
-            <span class="module-card__number">Módulo 05</span>
-            <h3 class="module-card__title">A Presença do Pregador</h3>
-            <ul class="module-card__list">
-              <li>Domínio da voz, entonação e dicção</li>
-              <li>O uso intencional do silêncio e das pausas</li>
-              <li>Postura, expressão facial e movimento de palco</li>
-            </ul>
-          </article>
-
-          <article class="module-card">
-            <span class="module-card__number">Módulo 06</span>
-            <h3 class="module-card__title">Comunicação para Diferentes Públicos</h3>
-            <p style="font-size:0.8125rem;color:var(--muted);font-style:italic;margin-bottom:0.5rem;">Adaptação precisa da mensagem para cada contexto:</p>
-            <div class="module-tags">
-              <span class="module-tag">Jovens</span>
-              <span class="module-tag">Casais</span>
-              <span class="module-tag">Empresários</span>
-              <span class="module-tag">Novos Convertidos</span>
-              <span class="module-tag">Crianças</span>
-              <span class="module-tag">Conferências</span>
-              <span class="module-tag">Células</span>
+          <article class="module-card reveal">
+            <div class="module-card__img">
+              <img src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=700&q=80" alt="Módulo 1 — O Chamado" loading="lazy">
+            </div>
+            <div class="module-card__body">
+              <span class="module-card__number">Módulo 01</span>
+              <h3 class="module-card__title">O Chamado e a Responsabilidade</h3>
+              <ul class="module-card__list">
+                <li>Parábola dos talentos e responsabilidade no falar</li>
+                <li>Mordomia e administração do dom pregado</li>
+                <li>Excelência como ato de adoração e serviço</li>
+                <li>Por que e como desenvolver continuamente o seu dom</li>
+              </ul>
             </div>
           </article>
-
-          <article class="module-card">
-            <span class="module-card__number">Módulo 07</span>
-            <h3 class="module-card__title">Pregações Memoráveis</h3>
-            <ul class="module-card__list">
-              <li>Análise técnica de grandes comunicadores cristãos</li>
-              <li>Absorvendo princípios universais (sem copiar estilos)</li>
-              <li>Construindo a sua autenticidade no altar</li>
-            </ul>
+          <article class="module-card reveal">
+            <div class="module-card__img">
+              <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=700&q=80" alt="Módulo 2 — Comunicação" loading="lazy">
+            </div>
+            <div class="module-card__body">
+              <span class="module-card__number">Módulo 02</span>
+              <h3 class="module-card__title">Comunicação que Honra a Palavra</h3>
+              <ul class="module-card__list">
+                <li>Clareza, objetividade e organização de ideias</li>
+                <li>Os maiores erros cometidos no púlpito e como corrigi-los</li>
+                <li>Conciliando relevância contemporânea e rigor bíblico</li>
+              </ul>
+            </div>
           </article>
-
-          <article class="module-card module-card--wide">
-            <span class="module-card__number">Módulo 08</span>
-            <h3 class="module-card__title">Da Preparação ao Altar (Checklist Prático)</h3>
-            <p style="font-size:0.8125rem;color:var(--muted);margin-bottom:0.75rem;">Um roteiro completo de execução etapa por etapa:</p>
-            <div class="checklist-grid">
-              <div class="checklist-item">
-                <span class="checklist-item__label">7 Dias Antes</span>
-                <span class="checklist-item__desc">Estudo &amp; Estrutura</span>
+          <article class="module-card module-card--highlight module-card--wide reveal">
+            <div class="module-card__img">
+              <span class="module-card__badge">Destaque Exclusivo</span>
+              <img src="https://images.unsplash.com/photo-1559757175-57083549455f?auto=format&fit=crop&w=1200&q=80" alt="Módulo 3 — Neurociência" loading="lazy">
+            </div>
+            <div class="module-card__body">
+              <span class="module-card__number">Módulo 03</span>
+              <h3 class="module-card__title">Neurociência da Atenção</h3>
+              <p style="font-size:0.8125rem;color:var(--muted);font-style:italic;margin-bottom:0.75rem;">Um módulo único e transformador aplicado diretamente à prática do púlpito.</p>
+              <ul class="module-card__list">
+                <li>Como o cérebro do ouvinte processa mensagens</li>
+                <li>Gestão consciente da carga cognitiva</li>
+                <li>Gatilhos de memória, emoção e repetição</li>
+                <li>Ativação da curiosidade e retenção bíblica</li>
+              </ul>
+            </div>
+          </article>
+          <article class="module-card reveal">
+            <div class="module-card__img">
+              <img src="https://images.unsplash.com/photo-1516979187456-7683578f1c4e?auto=format&fit=crop&w=700&q=80" alt="Módulo 4 — Storytelling" loading="lazy">
+            </div>
+            <div class="module-card__body">
+              <span class="module-card__number">Módulo 04</span>
+              <h3 class="module-card__title">Storytelling Bíblico</h3>
+              <ul class="module-card__list">
+                <li>A arte de contar histórias e parábolas bíblicas</li>
+                <li>Como ilustrar conceitos teológicos abstratos</li>
+                <li>Conexão profunda e emoção legítima</li>
+              </ul>
+            </div>
+          </article>
+          <article class="module-card reveal">
+            <div class="module-card__img">
+              <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=700&q=80" alt="Módulo 5 — Presença" loading="lazy">
+            </div>
+            <div class="module-card__body">
+              <span class="module-card__number">Módulo 05</span>
+              <h3 class="module-card__title">A Presença do Pregador</h3>
+              <ul class="module-card__list">
+                <li>Domínio da voz, entonação e dicção</li>
+                <li>O uso intencional do silêncio e das pausas</li>
+                <li>Postura, expressão facial e movimento de palco</li>
+              </ul>
+            </div>
+          </article>
+          <article class="module-card reveal">
+            <div class="module-card__img">
+              <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=80" alt="Módulo 6 — Públicos" loading="lazy">
+            </div>
+            <div class="module-card__body">
+              <span class="module-card__number">Módulo 06</span>
+              <h3 class="module-card__title">Comunicação para Diferentes Públicos</h3>
+              <p style="font-size:0.8125rem;color:var(--muted);font-style:italic;margin-bottom:0.5rem;">Adaptação precisa da mensagem para cada contexto:</p>
+              <div class="module-tags">
+                <span class="module-tag">Jovens</span><span class="module-tag">Casais</span>
+                <span class="module-tag">Empresários</span><span class="module-tag">Novos Convertidos</span>
+                <span class="module-tag">Crianças</span><span class="module-tag">Conferências</span>
+                <span class="module-tag">Células</span>
               </div>
-              <div class="checklist-item">
-                <span class="checklist-item__label">3 Dias Antes</span>
-                <span class="checklist-item__desc">Ilustrações &amp; Pausas</span>
-              </div>
-              <div class="checklist-item">
-                <span class="checklist-item__label">No Dia</span>
-                <span class="checklist-item__desc">Descanso &amp; Oração</span>
-              </div>
-              <div class="checklist-item">
-                <span class="checklist-item__label">Antes de Subir</span>
-                <span class="checklist-item__desc">Foco &amp; Respiração</span>
-              </div>
-              <div class="checklist-item">
-                <span class="checklist-item__label">Durante</span>
-                <span class="checklist-item__desc">Presença &amp; Conexão</span>
-              </div>
-              <div class="checklist-item">
-                <span class="checklist-item__label">Depois</span>
-                <span class="checklist-item__desc">Avaliação &amp; Gratidão</span>
+            </div>
+          </article>
+          <article class="module-card reveal">
+            <div class="module-card__img">
+              <img src="https://images.unsplash.com/photo-1438237150248-9951904346ea?auto=format&fit=crop&w=700&q=80" alt="Módulo 7 — Pregações memoráveis" loading="lazy">
+            </div>
+            <div class="module-card__body">
+              <span class="module-card__number">Módulo 07</span>
+              <h3 class="module-card__title">Pregações Memoráveis</h3>
+              <ul class="module-card__list">
+                <li>Análise técnica de grandes comunicadores cristãos</li>
+                <li>Absorvendo princípios universais (sem copiar estilos)</li>
+                <li>Construindo a sua autenticidade no altar</li>
+              </ul>
+            </div>
+          </article>
+          <article class="module-card module-card--wide reveal">
+            <div class="module-card__img">
+              <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=1200&q=80" alt="Módulo 8 — Checklist prático" loading="lazy">
+            </div>
+            <div class="module-card__body">
+              <span class="module-card__number">Módulo 08</span>
+              <h3 class="module-card__title">Da Preparação ao Altar (Checklist Prático)</h3>
+              <p style="font-size:0.8125rem;color:var(--muted);margin-bottom:0.75rem;">Um roteiro completo de execução etapa por etapa:</p>
+              <div class="checklist-grid">
+                <div class="checklist-item"><span class="checklist-item__label">7 Dias Antes</span><span class="checklist-item__desc">Estudo &amp; Estrutura</span></div>
+                <div class="checklist-item"><span class="checklist-item__label">3 Dias Antes</span><span class="checklist-item__desc">Ilustrações &amp; Pausas</span></div>
+                <div class="checklist-item"><span class="checklist-item__label">No Dia</span><span class="checklist-item__desc">Descanso &amp; Oração</span></div>
+                <div class="checklist-item"><span class="checklist-item__label">Antes de Subir</span><span class="checklist-item__desc">Foco &amp; Respiração</span></div>
+                <div class="checklist-item"><span class="checklist-item__label">Durante</span><span class="checklist-item__desc">Presença &amp; Conexão</span></div>
+                <div class="checklist-item"><span class="checklist-item__label">Depois</span><span class="checklist-item__desc">Avaliação &amp; Gratidão</span></div>
               </div>
             </div>
           </article>
         </div>
 
-        <div style="text-align:center;margin-top:2.5rem;">
+        <div class="gallery-strip reveal">
+          <div class="gallery-strip__item"><img src="https://images.unsplash.com/photo-1510079018349-c95b649ede21?auto=format&fit=crop&w=400&q=80" alt="" loading="lazy"></div>
+          <div class="gallery-strip__item"><img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=400&q=80" alt="" loading="lazy"></div>
+          <div class="gallery-strip__item"><img src="https://images.unsplash.com/photo-1478737270239-98fcebfa8431?auto=format&fit=crop&w=400&q=80" alt="" loading="lazy"></div>
+          <div class="gallery-strip__item"><img src="https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=400&q=80" alt="" loading="lazy"></div>
+          <div class="gallery-strip__item gallery-strip__item--wide"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80" alt="Comunicação transformadora" loading="lazy"></div>
+        </div>
+
+        <div class="section-cta reveal">
           <button class="btn btn--gold btn--large" data-action="purchase">Quero acessar todos os módulos</button>
         </div>
       </div>
     </section>
 
-    <!-- ========== PARA QUEM É ========== -->
+    <!-- PARA QUEM É -->
     <section class="section section--alt" id="para-quem">
       <div class="container">
-        <header class="section__header">
-          <span class="section-label">Público-alvo</span>
-          <h2 class="section-title">Para quem é o Curso Bom Semeador</h2>
-          <div class="gold-line"></div>
-        </header>
-
-        <div class="audience-grid">
-          <div class="audience-item">Pastores e pregadores que desejam elevar a qualidade da comunicação</div>
-          <div class="audience-item">Líderes de células e ministérios de ensino</div>
-          <div class="audience-item">Seminaristas e estudantes de teologia</div>
-          <div class="audience-item">Pregadores iniciantes que buscam fundamentos sólidos</div>
-          <div class="audience-item">Comunicadores experientes que querem se atualizar</div>
-          <div class="audience-item">Quem sente o chamado de comunicar a Palavra com excelência</div>
+        <div class="audience-layout reveal">
+          <div class="audience-image">
+            <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=900&q=80" alt="Comunidade e ministério" loading="lazy">
+          </div>
+          <div>
+            <span class="section-label">Público-alvo</span>
+            <h2 class="section-title" style="text-align:left;">Para quem é o Curso Bom Semeador</h2>
+            <div class="gold-line" style="margin-left:0;"></div>
+            <div class="audience-grid" style="margin-top:2rem;">
+              <div class="audience-item"><span class="audience-item__icon">✦</span>Pastores e pregadores que desejam elevar a qualidade da comunicação</div>
+              <div class="audience-item"><span class="audience-item__icon">✦</span>Líderes de células e ministérios de ensino</div>
+              <div class="audience-item"><span class="audience-item__icon">✦</span>Seminaristas e estudantes de teologia</div>
+              <div class="audience-item"><span class="audience-item__icon">✦</span>Pregadores iniciantes que buscam fundamentos sólidos</div>
+              <div class="audience-item"><span class="audience-item__icon">✦</span>Comunicadores experientes que querem se atualizar</div>
+              <div class="audience-item"><span class="audience-item__icon">✦</span>Quem sente o chamado de comunicar a Palavra com excelência</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- ========== BÔNUS ========== -->
+    <!-- BÔNUS -->
     <section class="section" id="bonus">
       <div class="container">
-        <header class="section__header">
+        <header class="section__header reveal">
           <span class="section-label">Conteúdo Complementar</span>
-          <h2 class="section-title">Módulos Bônus</h2>
+          <h2 class="section-title">Módulos Bônus Exclusivos</h2>
           <div class="gold-line"></div>
         </header>
-
         <div class="bonus-grid">
-          <article class="bonus-card">
-            <div class="bonus-card__icon" aria-hidden="true">📱</div>
-            <div>
+          <article class="bonus-card reveal">
+            <div class="bonus-card__bg" style="background-image:url('https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=900&q=80')"></div>
+            <div class="bonus-card__overlay"></div>
+            <div class="bonus-card__content">
+              <span class="bonus-card__tag">Bônus 01</span>
               <h3 class="bonus-card__title">Comunicação no Instagram</h3>
               <ul class="bonus-card__list">
                 <li>• Como gravar Reels impactantes e atrativos</li>
@@ -518,10 +616,11 @@
               </ul>
             </div>
           </article>
-
-          <article class="bonus-card">
-            <div class="bonus-card__icon" aria-hidden="true">💛</div>
-            <div>
+          <article class="bonus-card reveal">
+            <div class="bonus-card__bg" style="background-image:url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=80')"></div>
+            <div class="bonus-card__overlay"></div>
+            <div class="bonus-card__content">
+              <span class="bonus-card__tag">Bônus 02</span>
               <h3 class="bonus-card__title">Inteligência Emocional</h3>
               <ul class="bonus-card__list">
                 <li>• Domínio do medo de falar em público e ansiedade pré-pregação</li>
@@ -534,184 +633,177 @@
       </div>
     </section>
 
-    <!-- ========== DEPOIMENTOS ========== -->
+    <!-- DEPOIMENTOS -->
     <section class="section section--alt" id="depoimentos">
       <div class="container">
-        <header class="section__header">
+        <header class="section__header reveal">
           <span class="section-label">Transformações reais</span>
           <h2 class="section-title">O que dizem nossos alunos</h2>
           <div class="gold-line"></div>
         </header>
-
         <div class="testimonials-grid">
-          <article class="testimonial-card">
-            <div class="testimonial-card__stars" aria-hidden="true">★★★★★</div>
-            <p class="testimonial-card__placeholder">
-              <span class="placeholder-tag">[SUBSTITUIR: DEPOIMENTO 1]</span><br><br>
-              Insira aqui o depoimento completo do aluno, incluindo nome, cidade e resultado alcançado.
-            </p>
-            <p class="testimonial-card__author">
-              <span class="placeholder-tag">[SUBSTITUIR: NOME DO ALUNO 1]</span>
-            </p>
+          <article class="testimonial-card reveal">
+            <div class="testimonial-card__photo">
+              <div class="testimonial-card__photo-placeholder">
+                <span class="placeholder-tag">[SUBSTITUIR: FOTO ALUNO 1]</span>
+              </div>
+            </div>
+            <div class="testimonial-card__body">
+              <div class="testimonial-card__stars" aria-hidden="true">★★★★★</div>
+              <p class="testimonial-card__placeholder">
+                <span class="placeholder-tag">[SUBSTITUIR: DEPOIMENTO 1]</span><br><br>
+                Insira aqui o depoimento completo do aluno, incluindo nome, cidade e resultado alcançado.
+              </p>
+              <p class="testimonial-card__author"><span class="placeholder-tag">[SUBSTITUIR: NOME DO ALUNO 1]</span></p>
+            </div>
           </article>
-
-          <article class="testimonial-card">
-            <div class="testimonial-card__stars" aria-hidden="true">★★★★★</div>
-            <p class="testimonial-card__placeholder">
-              <span class="placeholder-tag">[SUBSTITUIR: DEPOIMENTO 2]</span><br><br>
-              Insira aqui o depoimento completo do aluno, incluindo nome, cidade e resultado alcançado.
-            </p>
-            <p class="testimonial-card__author">
-              <span class="placeholder-tag">[SUBSTITUIR: NOME DO ALUNO 2]</span>
-            </p>
+          <article class="testimonial-card reveal">
+            <div class="testimonial-card__photo">
+              <div class="testimonial-card__photo-placeholder">
+                <span class="placeholder-tag">[SUBSTITUIR: FOTO ALUNO 2]</span>
+              </div>
+            </div>
+            <div class="testimonial-card__body">
+              <div class="testimonial-card__stars" aria-hidden="true">★★★★★</div>
+              <p class="testimonial-card__placeholder">
+                <span class="placeholder-tag">[SUBSTITUIR: DEPOIMENTO 2]</span><br><br>
+                Insira aqui o depoimento completo do aluno, incluindo nome, cidade e resultado alcançado.
+              </p>
+              <p class="testimonial-card__author"><span class="placeholder-tag">[SUBSTITUIR: NOME DO ALUNO 2]</span></p>
+            </div>
           </article>
-
-          <article class="testimonial-card">
-            <div class="testimonial-card__stars" aria-hidden="true">★★★★★</div>
-            <p class="testimonial-card__placeholder">
-              <span class="placeholder-tag">[SUBSTITUIR: DEPOIMENTO 3]</span><br><br>
-              Insira aqui o depoimento completo do aluno, incluindo nome, cidade e resultado alcançado.
-            </p>
-            <p class="testimonial-card__author">
-              <span class="placeholder-tag">[SUBSTITUIR: NOME DO ALUNO 3]</span>
-            </p>
+          <article class="testimonial-card reveal">
+            <div class="testimonial-card__photo">
+              <div class="testimonial-card__photo-placeholder">
+                <span class="placeholder-tag">[SUBSTITUIR: FOTO ALUNO 3]</span>
+              </div>
+            </div>
+            <div class="testimonial-card__body">
+              <div class="testimonial-card__stars" aria-hidden="true">★★★★★</div>
+              <p class="testimonial-card__placeholder">
+                <span class="placeholder-tag">[SUBSTITUIR: DEPOIMENTO 3]</span><br><br>
+                Insira aqui o depoimento completo do aluno, incluindo nome, cidade e resultado alcançado.
+              </p>
+              <p class="testimonial-card__author"><span class="placeholder-tag">[SUBSTITUIR: NOME DO ALUNO 3]</span></p>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ========== OFERTA ========== -->
+    <!-- OFERTA -->
     <section class="section section--dark" id="oferta">
       <div class="container">
-        <header class="section__header">
+        <header class="section__header reveal">
           <span class="section-label">Sua oportunidade</span>
           <h2 class="section-title">Oferta Especial — Curso Bom Semeador</h2>
-          <p class="section-subtitle">
-            Invista na excelência do seu ministério e honre o chamado que Deus colocou em suas mãos.
-          </p>
+          <p class="section-subtitle">Invista na excelência do seu ministério e honre o chamado que Deus colocou em suas mãos.</p>
           <div class="gold-line"></div>
         </header>
-
-        <div class="offer-box">
-          <p style="font-size:0.8125rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.15em;font-weight:600;">Investimento</p>
-
-          <div class="offer-box__price">
-            <span class="placeholder-tag">[SUBSTITUIR: PREÇO]</span>
+        <div class="offer-wrapper reveal">
+          <div class="offer-visual">
+            <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=900&q=80" alt="Curso Bom Semeador" loading="lazy">
+            <span class="offer-visual__badge">Acesso Completo</span>
           </div>
-
-          <p style="font-size:0.8125rem;color:var(--muted);">
-            Exemplo: R$ 997,00 ou 12x de R$ 97,00
-          </p>
-
-          <ul class="offer-box__includes">
-            <li>8 módulos completos do Curso Bom Semeador</li>
-            <li>Método S.E.M.E.A.R. — metodologia proprietária</li>
-            <li>Módulo exclusivo de Neurociência da Atenção</li>
-            <li>2 módulos bônus (Instagram + Inteligência Emocional)</li>
-            <li>Checklist prático: Da Preparação ao Altar</li>
-            <li>Acesso à plataforma de conteúdo</li>
-          </ul>
-
-          <button class="btn btn--gold btn--large" style="width:100%;" data-action="purchase">
-            Quero garantir minha vaga agora
-          </button>
-
-          <p style="font-size:0.6875rem;color:var(--muted);margin-top:1rem;">
-            Link de pagamento: <span class="placeholder-tag">[SUBSTITUIR: LINK DE PAGAMENTO]</span>
-          </p>
+          <div class="offer-box">
+            <p style="font-size:0.8125rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.15em;font-weight:600;">Investimento</p>
+            <div class="offer-box__price"><span class="placeholder-tag">[SUBSTITUIR: PREÇO]</span></div>
+            <p style="font-size:0.8125rem;color:var(--muted);">Exemplo: R$ 997,00 ou 12x de R$ 97,00</p>
+            <ul class="offer-box__includes">
+              <li>8 módulos completos do Curso Bom Semeador</li>
+              <li>Método S.E.M.E.A.R. — metodologia proprietária</li>
+              <li>Módulo exclusivo de Neurociência da Atenção</li>
+              <li>2 módulos bônus (Instagram + Inteligência Emocional)</li>
+              <li>Checklist prático: Da Preparação ao Altar</li>
+              <li>Acesso à plataforma de conteúdo</li>
+            </ul>
+            <button class="btn btn--gold btn--large" style="width:100%;" data-action="purchase">Quero garantir minha vaga agora</button>
+            <p style="font-size:0.6875rem;color:var(--muted);margin-top:1rem;">
+              Link de pagamento: <span class="placeholder-tag">[SUBSTITUIR: LINK DE PAGAMENTO]</span>
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- ========== GARANTIA ========== -->
+    <!-- GARANTIA -->
     <section class="section" id="garantia">
       <div class="container">
-        <header class="section__header">
+        <header class="section__header reveal">
           <span class="section-label">Compra segura</span>
           <h2 class="section-title">Garantia</h2>
           <div class="gold-line"></div>
         </header>
-
-        <div class="guarantee-box">
-          <div class="guarantee-box__icon" aria-hidden="true">🛡</div>
-          <h3 style="font-family:var(--font-serif);font-size:1.5rem;margin-bottom:0.75rem;">Sua satisfação é nossa prioridade</h3>
-          <p style="font-size:0.875rem;color:var(--muted);max-width:28rem;margin:0 auto;">
-            Queremos que você tenha total confiança ao investir no seu desenvolvimento como comunicador da Palavra.
-          </p>
-          <p class="guarantee-box__placeholder">
-            <span class="placeholder-tag">[SUBSTITUIR: TEXTO DA GARANTIA]</span><br>
-            Exemplo: Garantia incondicional de 7 dias. Se não ficar satisfeito, devolvemos 100% do valor.
-          </p>
+        <div class="guarantee-layout reveal">
+          <div class="guarantee-image">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80" alt="Compra segura e confiança" loading="lazy">
+          </div>
+          <div class="guarantee-box">
+            <div class="guarantee-box__icon" aria-hidden="true">🛡</div>
+            <h3 style="font-family:var(--font-serif);font-size:1.75rem;margin-bottom:0.75rem;">Sua satisfação é nossa prioridade</h3>
+            <p style="font-size:0.9375rem;color:var(--muted);line-height:1.7;">Queremos que você tenha total confiança ao investir no seu desenvolvimento como comunicador da Palavra.</p>
+            <p class="guarantee-box__placeholder">
+              <span class="placeholder-tag">[SUBSTITUIR: TEXTO DA GARANTIA]</span><br>
+              Exemplo: Garantia incondicional de 7 dias. Se não ficar satisfeito, devolvemos 100% do valor.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- ========== FAQ ========== -->
+    <!-- FAQ -->
     <section class="section section--alt" id="faq">
       <div class="container">
-        <header class="section__header">
+        <header class="section__header reveal">
           <span class="section-label">Tire suas dúvidas</span>
           <h2 class="section-title">Perguntas Frequentes</h2>
           <div class="gold-line"></div>
         </header>
-
-        <div class="faq-list">
+        <div class="faq-list reveal">
           <div class="faq-item">
             <button class="faq-question" aria-expanded="false">
               <span>Para quem é indicado o Curso Bom Semeador?</span>
               <span class="faq-question__icon">+</span>
             </button>
-            <div class="faq-answer">
-              <p>O CBS é indicado para pastores, pregadores, líderes de células, seminaristas e qualquer pessoa chamada por Deus a comunicar a Palavra com excelência — seja iniciante ou experiente.</p>
-            </div>
+            <div class="faq-answer"><p>O CBS é indicado para pastores, pregadores, líderes de células, seminaristas e qualquer pessoa chamada por Deus a comunicar a Palavra com excelência — seja iniciante ou experiente.</p></div>
           </div>
-
           <div class="faq-item">
             <button class="faq-question" aria-expanded="false">
               <span>Preciso ter experiência em pregação?</span>
               <span class="faq-question__icon">+</span>
             </button>
-            <div class="faq-answer">
-              <p>Não. O curso foi estruturado para atender tanto quem está começando quanto quem já prega há anos e deseja aprimorar sua comunicação com método e embasamento.</p>
-            </div>
+            <div class="faq-answer"><p>Não. O curso foi estruturado para atender tanto quem está começando quanto quem já prega há anos e deseja aprimorar sua comunicação com método e embasamento.</p></div>
           </div>
-
           <div class="faq-item">
             <button class="faq-question" aria-expanded="false">
               <span>Como funciona o acesso ao conteúdo?</span>
               <span class="faq-question__icon">+</span>
             </button>
-            <div class="faq-answer">
-              <p>Após a confirmação do pagamento, você receberá os dados de acesso à plataforma do curso por e-mail, com todos os módulos disponíveis para estudar no seu ritmo.</p>
-            </div>
+            <div class="faq-answer"><p>Após a confirmação do pagamento, você receberá os dados de acesso à plataforma do curso por e-mail, com todos os módulos disponíveis para estudar no seu ritmo.</p></div>
           </div>
-
           <div class="faq-item">
             <button class="faq-question" aria-expanded="false">
               <span>O curso compromete a fidelidade bíblica?</span>
               <span class="faq-question__icon">+</span>
             </button>
-            <div class="faq-answer">
-              <p>Absolutamente não. O CBS foi construído sobre o princípio de que a excelência na comunicação honra a Palavra de Deus — nunca a substitui. Técnicas de comunicação servem à fidelidade às Escrituras.</p>
-            </div>
+            <div class="faq-answer"><p>Absolutamente não. O CBS foi construído sobre o princípio de que a excelência na comunicação honra a Palavra de Deus — nunca a substitui. Técnicas de comunicação servem à fidelidade às Escrituras.</p></div>
           </div>
-
           <div class="faq-item">
             <button class="faq-question" aria-expanded="false">
               <span>Posso parcelar o investimento?</span>
               <span class="faq-question__icon">+</span>
             </button>
-            <div class="faq-answer">
-              <p>Sim. As opções de parcelamento estarão disponíveis na página de checkout. Consulte as condições no momento da inscrição.</p>
-            </div>
+            <div class="faq-answer"><p>Sim. As opções de parcelamento estarão disponíveis na página de checkout. Consulte as condições no momento da inscrição.</p></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ========== CTA FINAL ========== -->
-    <section class="section section--dark cta-strip">
-      <div class="container">
+    <!-- CTA FINAL -->
+    <section class="cta-strip">
+      <div class="cta-strip__bg" style="background-image:url('https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=1920&q=80')"></div>
+      <div class="cta-strip__overlay"></div>
+      <div class="container cta-strip__content reveal">
         <p class="cta-strip__text">
           O chamado vem de Deus.<br>
           <em style="color:var(--gold-light);">A excelência honra esse chamado.</em>
@@ -722,7 +814,7 @@
 
   </main>
 
-  <!-- ========== RODAPÉ ========== -->
+  <!-- RODAPÉ -->
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">CBS — Curso Bom Semeador</div>
@@ -735,7 +827,12 @@
     </div>
   </footer>
 
-  <!-- WhatsApp Flutuante -->
+  <!-- Sticky CTA Mobile -->
+  <div class="sticky-cta" id="stickyCta">
+    <button class="btn btn--gold" data-action="purchase">Garantir minha vaga — CBS</button>
+  </div>
+
+  <!-- WhatsApp -->
   <a href="#" id="whatsappFloat" class="whatsapp-float" title="Fale conosco pelo WhatsApp">
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.884 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
