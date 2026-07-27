@@ -4,6 +4,8 @@
  */
 const CBS_CONFIG = {
   paymentUrl: 'https://pay.kiwify.com.br/q1vCkd5',
+  price: 'R$ 997,00',
+  installments: '12x de R$ 97,00',
 
   whatsapp: {
     phone: '5565999684655',
@@ -12,6 +14,8 @@ const CBS_CONFIG = {
 
   metaPixelId: '1332721619020867'
 };
+
+document.documentElement.classList.add('js');
 
 document.addEventListener('DOMContentLoaded', () => {
   initMobileMenu();
@@ -83,6 +87,14 @@ function initPurchaseButtons() {
   document.querySelectorAll('[data-action="purchase"]').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
+      if (typeof fbq === 'function') {
+        fbq('track', 'InitiateCheckout', {
+          content_name: 'Curso Bom Semeador',
+          content_category: 'Curso Online',
+          value: 997,
+          currency: 'BRL'
+        });
+      }
       window.open(CBS_CONFIG.paymentUrl, '_blank', 'noopener,noreferrer');
     });
   });
