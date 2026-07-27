@@ -25,7 +25,21 @@ document.addEventListener('DOMContentLoaded', () => {
   initScrollReveal();
   initStickyCta();
   initHeaderScroll();
+  initImageFallbacks();
 });
+
+/* ---- Fallback para imagens ---- */
+function initImageFallbacks() {
+  const fallback = typeof CBS_IMAGES !== 'undefined' ? CBS_IMAGES.fallback : '';
+  if (!fallback) return;
+
+  document.querySelectorAll('img').forEach(img => {
+    img.decoding = 'async';
+    img.addEventListener('error', () => {
+      if (img.src !== fallback) img.src = fallback;
+    }, { once: true });
+  });
+}
 
 /* ---- FAQ Accordion ---- */
 function initFaqAccordion() {
