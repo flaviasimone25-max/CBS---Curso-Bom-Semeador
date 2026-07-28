@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initStickyCta();
   initHeaderScroll();
   initImageFallbacks();
+  applyCbsImages();
 });
 
 /* ---- Fallback para imagens ---- */
