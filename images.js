@@ -9,7 +9,7 @@ const CBS_IMAGES = {
   /* Hero */
   heroRiver: CBS_IMG(2441454, 900),
   heroCrossSea: CBS_IMG(18929145, 900),
-  heroPastor: CBS_IMG(6266086, 900),
+  heroPastor: CBS_IMG(12003150, 900),
 
   /* Banners */
   seaCrossWide: CBS_IMG(12003150, 1920),
@@ -26,10 +26,12 @@ const CBS_IMAGES = {
   crossClassic: CBS_IMG(2683371, 600),
   crossDevotion: CBS_IMG(2683372, 600),
 
-  /* Padres & pastores */
-  pastorPulpit: CBS_IMG(6266086, 800),
-  priestPray: CBS_IMG(8817474, 600),
-  priestCross: CBS_IMG(8857686, 600),
+  /* Fé & ministério */
+  splitDores: CBS_IMG(18929145, 900),
+  crossBible: CBS_IMG(8468742, 600),
+  pastorPulpit: CBS_IMG(6774238, 800),
+  priestPray: CBS_IMG(8468742, 600),
+  priestCross: CBS_IMG(32113592, 600),
 
   /* Natureza — rios & mar */
   riverCalm: CBS_IMG(2441454, 600),
