@@ -4,12 +4,12 @@
  */
 const CBS_CONFIG = {
   paymentUrl: 'https://pay.kiwify.com.br/q1vCkd5',
-  price: 'R$ 997,00',
-  installments: '12x de R$ 97,00',
+  price: 'R$ 97,00',
+  installments: '',
 
   whatsapp: {
     phone: '5565999684655',
-    message: 'Olá! Seja bem-vindo(a) ao Curso Bom Semeador. Em que posso ajudá-lo(a)?'
+    message: 'Olá! Vi a página do Curso Bom Semeador e quero saber se é pra mim. Ainda estou começando na pregação.'
   },
 
   metaPixelId: '1332721619020867'
@@ -84,7 +84,7 @@ function initPurchaseButtons() {
         fbq('track', 'InitiateCheckout', {
           content_name: 'Curso Bom Semeador',
           content_category: 'Curso Online',
-          value: 997,
+          value: 97,
           currency: 'BRL'
         });
       }

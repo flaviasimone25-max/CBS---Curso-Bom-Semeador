@@ -1,5 +1,5 @@
 /**
- * CBS — 7 imagens exclusivas do curso
+ * CBS — Imagens alinhadas à jornada do iniciante (persona Anderson)
  */
 const CBS_IMAGES = {
   bibliaEstudo: 'images/01-biblia-estudo.jpg',
@@ -10,19 +10,18 @@ const CBS_IMAGES = {
   bibliaNatureza: 'images/06-biblia-natureza.jpg',
   semente: 'images/07-semente.jpg',
 
-  /* Hero */
-  heroRiver: 'images/02-montanha-oracao.jpg',
-  heroCrossSea: 'images/01-biblia-estudo.jpg',
-  heroPastor: 'images/04-pregador.jpg',
+  /* Hero — desejo → chamado → preparação */
+  heroRiver: 'images/03-oracao.jpg',
+  heroCrossSea: 'images/07-semente.jpg',
+  heroPastor: 'images/05-jornal-biblia.jpg',
 
   /* Banners */
   seaCrossWide: 'images/02-montanha-oracao.jpg',
   seaSunset: 'images/02-montanha-oracao.jpg',
-  churchWide: 'images/01-biblia-estudo.jpg',
-  churchMedium: 'images/01-biblia-estudo.jpg',
-  churchCard: 'images/01-biblia-estudo.jpg',
+  churchWide: 'images/06-biblia-natureza.jpg',
+  churchMedium: 'images/06-biblia-natureza.jpg',
+  churchCard: 'images/06-biblia-natureza.jpg',
 
-  /* Fé & cruz */
   crossSea: 'images/02-montanha-oracao.jpg',
   crossAltar: 'images/07-semente.jpg',
   crossHill: 'images/02-montanha-oracao.jpg',
@@ -31,32 +30,28 @@ const CBS_IMAGES = {
   crossDevotion: 'images/03-oracao.jpg',
   crossBible: 'images/07-semente.jpg',
 
-  /* Ministério */
-  splitDores: 'images/04-pregador.jpg',
+  splitDores: 'images/03-oracao.jpg',
   pastorPulpit: 'images/04-pregador.jpg',
   priestPray: 'images/03-oracao.jpg',
   priestCross: 'images/07-semente.jpg',
 
-  /* Estudo & natureza */
   riverCalm: 'images/05-jornal-biblia.jpg',
   riverFlow: 'images/06-biblia-natureza.jpg',
   riverWide: 'images/02-montanha-oracao.jpg',
   riverMist: 'images/06-biblia-natureza.jpg',
   riverValley: 'images/06-biblia-natureza.jpg',
   seaHorizon: 'images/02-montanha-oracao.jpg',
-  seaPeace: 'images/02-montanha-oracao.jpg',
+  seaPeace: 'images/03-oracao.jpg',
   seaCross: 'images/02-montanha-oracao.jpg',
 
-  /* Congregação */
   congregation: 'images/04-pregador.jpg',
   worship: 'images/04-pregador.jpg',
 
-  /* Depoimentos */
-  portrait1: 'images/03-oracao.jpg',
-  portrait2: 'images/06-biblia-natureza.jpg',
-  portrait3: 'images/04-pregador.jpg',
+  portrait1: 'images/05-jornal-biblia.jpg',
+  portrait2: 'images/03-oracao.jpg',
+  portrait3: 'images/06-biblia-natureza.jpg',
 
-  fallback: 'images/01-biblia-estudo.jpg'
+  fallback: 'images/07-semente.jpg'
 };
 
 function applyCbsImages() {
