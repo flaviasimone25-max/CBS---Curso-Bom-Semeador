@@ -1,58 +1,62 @@
 /**
- * CBS — Imagens clássicas cristãs
- * Cruz, padre/pastor, igreja, rios e mar.
+ * CBS — 7 imagens exclusivas do curso
  */
-const CBS_IMG = (id, w = 800) =>
-  `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=${w}&dpr=1`;
-
 const CBS_IMAGES = {
+  bibliaEstudo: 'images/01-biblia-estudo.jpg',
+  montanhaOracao: 'images/02-montanha-oracao.jpg',
+  oracao: 'images/03-oracao.jpg',
+  pregador: 'images/04-pregador.jpg',
+  jornalBiblia: 'images/05-jornal-biblia.jpg',
+  bibliaNatureza: 'images/06-biblia-natureza.jpg',
+  semente: 'images/07-semente.jpg',
+
   /* Hero */
-  heroRiver: CBS_IMG(2441454, 900),
-  heroCrossSea: CBS_IMG(18929145, 900),
-  heroPastor: CBS_IMG(12003150, 900),
+  heroRiver: 'images/02-montanha-oracao.jpg',
+  heroCrossSea: 'images/01-biblia-estudo.jpg',
+  heroPastor: 'images/04-pregador.jpg',
 
   /* Banners */
-  seaCrossWide: CBS_IMG(12003150, 1920),
-  seaSunset: CBS_IMG(248797, 1920),
-  churchWide: CBS_IMG(208736, 1920),
-  churchMedium: CBS_IMG(208736, 1200),
-  churchCard: CBS_IMG(208736, 800),
+  seaCrossWide: 'images/02-montanha-oracao.jpg',
+  seaSunset: 'images/02-montanha-oracao.jpg',
+  churchWide: 'images/01-biblia-estudo.jpg',
+  churchMedium: 'images/01-biblia-estudo.jpg',
+  churchCard: 'images/01-biblia-estudo.jpg',
 
-  /* Cruz clássica */
-  crossSea: CBS_IMG(18929145, 800),
-  crossAltar: CBS_IMG(32113592, 800),
-  crossHill: CBS_IMG(2683370, 600),
-  crossLight: CBS_IMG(2381069, 900),
-  crossClassic: CBS_IMG(2683371, 600),
-  crossDevotion: CBS_IMG(2683372, 600),
+  /* Fé & cruz */
+  crossSea: 'images/02-montanha-oracao.jpg',
+  crossAltar: 'images/07-semente.jpg',
+  crossHill: 'images/02-montanha-oracao.jpg',
+  crossLight: 'images/03-oracao.jpg',
+  crossClassic: 'images/07-semente.jpg',
+  crossDevotion: 'images/03-oracao.jpg',
+  crossBible: 'images/07-semente.jpg',
 
-  /* Fé & ministério */
-  splitDores: CBS_IMG(18929145, 900),
-  crossBible: CBS_IMG(8468742, 600),
-  pastorPulpit: CBS_IMG(6774238, 800),
-  priestPray: CBS_IMG(8468742, 600),
-  priestCross: CBS_IMG(32113592, 600),
+  /* Ministério */
+  splitDores: 'images/04-pregador.jpg',
+  pastorPulpit: 'images/04-pregador.jpg',
+  priestPray: 'images/03-oracao.jpg',
+  priestCross: 'images/07-semente.jpg',
 
-  /* Natureza — rios & mar */
-  riverCalm: CBS_IMG(2441454, 600),
-  riverFlow: CBS_IMG(2441457, 600),
-  riverWide: CBS_IMG(2441458, 800),
-  riverMist: CBS_IMG(2699415, 600),
-  riverValley: CBS_IMG(1770315, 700),
-  seaHorizon: CBS_IMG(1007657, 800),
-  seaPeace: CBS_IMG(1179229, 800),
-  seaCross: CBS_IMG(12003150, 900),
+  /* Estudo & natureza */
+  riverCalm: 'images/05-jornal-biblia.jpg',
+  riverFlow: 'images/06-biblia-natureza.jpg',
+  riverWide: 'images/02-montanha-oracao.jpg',
+  riverMist: 'images/06-biblia-natureza.jpg',
+  riverValley: 'images/06-biblia-natureza.jpg',
+  seaHorizon: 'images/02-montanha-oracao.jpg',
+  seaPeace: 'images/02-montanha-oracao.jpg',
+  seaCross: 'images/02-montanha-oracao.jpg',
 
-  /* Igreja & congregação */
-  congregation: CBS_IMG(6774236, 600),
-  worship: CBS_IMG(6774238, 600),
+  /* Congregação */
+  congregation: 'images/04-pregador.jpg',
+  worship: 'images/04-pregador.jpg',
 
   /* Depoimentos */
-  portrait1: CBS_IMG(2379004, 400),
-  portrait2: CBS_IMG(774909, 400),
-  portrait3: CBS_IMG(1222271, 400),
+  portrait1: 'images/03-oracao.jpg',
+  portrait2: 'images/06-biblia-natureza.jpg',
+  portrait3: 'images/04-pregador.jpg',
 
-  fallback: CBS_IMG(18929145, 800)
+  fallback: 'images/01-biblia-estudo.jpg'
 };
 
 function applyCbsImages() {
